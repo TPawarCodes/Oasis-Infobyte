@@ -1,0 +1,150 @@
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+#back{
+    background-image: url("back.jpg");
+    height: 100%;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+#logo{
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 160px;
+}
+
+#welcome{
+    font-size: 3rem;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 900;
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+#watch{
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+
+#div2{
+    background-color: black;
+    margin-top: 0px;
+
+}
+
+#enjoy{
+    float: left;
+    font-size: 3rem;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 900;
+    margin-left: 150px;
+    margin-top: 200px;
+}
+
+#enjoypara{
+    float: left;
+    text-align: left;
+    color: white;
+    font-size: 2rem;
+    margin-left: 150px;
+    margin-right: 750px;
+}
+#enjoyimg{
+
+    position: absolute;
+    left: 700px;
+    top: 800px;
+
+}
+
+.break {
+    height: 25px;
+    width: 100%;
+    background-color: #555;
+    opacity: 50%;
+}
+
+#h3{
+    position: absolute;
+    font-size: 3rem;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 900;
+    margin-left: 400px;
+    margin-right: 1000px;
+    top: 1400px;
+    left: 400px;
+}
+
+#img2{
+    position: absolute;
+    height: 400px;
+    left: 350px;
+    top: 1400px;
+    margin-right: 200px;
+
+}
+
+h1.watch{
+
+    position: relative;
+    font-size: 3rem;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 900;
+    top: 1200px;
+    left: -400px;
+}
+
+p.watch{
+    position: relative;
+    text-align: left;
+    color: white;
+    font-size: 2rem;
+    left: -400px;
+    top: 1200px ;
+    margin-right: 400px;
+}
+
+img.watch{
+    position: absolute;
+    height: 400px;
+    left: 800px;
+    top: 1950px;
+}
+
+h1.kids{
+
+    position: relative;
+    font-size: 3rem;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 900;
+    top: 1300px;
+    left: 800px;
+    
+
+}
+
+img.kids{
+    position: absolute;
+    height: 500px;
+    left: 200px;
+    top: 2400px;
+}
+
+p.kids{
+    position: relative;
+    text-align: left;
+    color: white;
+    font-size: 2rem;
+    left: 800px;
+    top: 1300px ;
+}

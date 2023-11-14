@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="tempconv.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+
+</head>
+<body>
+
+<h1>Temperature Converter</h1>
+
+
+<div id="convertbodyout"></div>
+<div id="convertbodyin">
+    <p id="heading">Enter temperature</p>
+    <p id="degree">Celsius</p>
+    <input type="number" id="celsius">
+    <div id="button1" class="text">Convert</div>
+</div> 
+<p id="opt"></p>
+
+
+
+<script>
+    document.getElementById("button1").onclick = function(){
+
+        var cel = document.getElementById("celsius").value;
+        console.log(cel);
+
+        var far = cel*(9/5)+32;
+
+        var opt = far + "<sup> <sup><span>&#176;</span> </sup>F</sup>";
+
+        document.getElementById("opt").innerHTML = opt;
+
+    }
+</script>   
+
+    
+</body>
+</html>
